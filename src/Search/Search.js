@@ -8,7 +8,13 @@ const FormStyle = {
 };
 
 const Search = props => (
-  <Form style={FormStyle} inline>
+  <Form
+    onSubmit={e => {
+      e.preventDefault();
+    }}
+    style={FormStyle}
+    inline
+  >
     <Input onChange={props.onChange} placeholder="enter search term" />
     <Button onClick={props.onClick}>Search</Button>
   </Form>

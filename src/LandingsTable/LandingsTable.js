@@ -2,9 +2,14 @@ import React from 'react';
 import { Table } from 'reactstrap';
 import LandingRow from './LandingRow/LandingRow';
 
+const TableStyle = {
+  marginLeft: '2em',
+  marginRight: '2em'
+};
+
 const LandingsTable = ({ data }) => {
   return (
-    <Table striped>
+    <Table style={TableStyle} striped>
       <thead>
         <tr>
           <th>Name</th>
