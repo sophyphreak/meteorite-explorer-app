@@ -4,7 +4,7 @@ import LandingRow from './LandingRow/LandingRow';
 
 const LandingsTable = ({ data }) => {
   return (
-    <Table striped responsive>
+    <Table striped>
       <thead>
         <tr>
           <th>Name</th>
