@@ -1,5 +1,10 @@
 import React from 'react';
+import Search from '../Search/Search';
 
-const Main = () => <p>this is the main part</p>;
+const Main = () => (
+  <div>
+    <Search />
+  </div>
+);
 
 export default Main;
