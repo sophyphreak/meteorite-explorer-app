@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, Input, Button } from 'reactstrap';
+import { Form, Input, Button } from 'reactstrap';
 
 const Search = () => (
   <Form inline>
