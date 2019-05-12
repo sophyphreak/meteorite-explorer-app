@@ -7,10 +7,10 @@ const FormStyle = {
   marginBottom: '1em'
 };
 
-const Search = () => (
+const Search = props => (
   <Form style={FormStyle} inline>
-    <Input placeholder="enter search term" />
-    <Button>Search</Button>
+    <Input onChange={props.onChange} placeholder="enter search term" />
+    <Button onClick={props.onClick}>Search</Button>
   </Form>
 );
 
